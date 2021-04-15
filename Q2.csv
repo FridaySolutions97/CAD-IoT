@@ -1,0 +1,28 @@
+Description,Possible_Root_cause,Page_number
+INDOOR PCB ABNORMALITY,"['Faulty indoor PCB.', 'Faulty connector connection at indoor.']",35
+ANTIFREEZE PROTECTION OR HIGH PRESSURE CONTROL,"['Indoor air short circuit.', 'Indoor coil thermistor faulty.', 'Indoor PCB faulty.', 'Fan blower dirty.']",36
+INDOOR FAN MOTOR ABNORMALITY,"['Indoor fan motor winding short, or the motor lead wire broken.', 'Indoor PCB faulty.']",37
+INDOOR HEAT EXCHANGER THERMISTOR ABNORMALITY,"['Thermistor, connector faulty.', 'Indoor PCB faulty.']",37
+INDOOR ROOM THERMISTOR ABNORMALITY,"['Thermistor, connector faulty.', 'Indoor PCB faulty.']",38
+OUTDOOR PCB ABNORMALITY,"['Micro Controller program run-away due to external factor such as Noise, Momentary voltage drop, Momentary power failure.', 'Damage of EEPROM.', 'Faulty outdoor unit PCB.', 'Broken hardness between PCB.']",39
+COMPRESSOR OVERLOAD,"['Refrigerant Shortage. way valve malfunction.', 'Stop valve malfunction.', 'Outdoor unit PCB defective.', 'Water mixed in refrigerant.', 'Electronic expansion valve defective.', 'Disconnection of discharge pipe thermistor.', 'Faulty discharge pipe thermistor.', 'Disconnection of connector S Electronic expansion valve or coil malfunction.', 'Disconnection of terminals of OL.']",40
+COMPRESSOR OVERLOAD,"['Refrigerant Shortage. way valve malfunction.', 'Electronic expansion valve defective.', 'Outdoor unit PCB defective.', 'Water mixed in refrigerant.']",41
+COMPRESSOR LOCK/START-UP ABNORMALITY,"['Compressor locked.', 'Compressor harness disconnect.']",42
+OUTDOOR FAN MOTOR LOCK,"['Fan motor breakdown.', 'Harness or connector disconnected between fan motor and PCB or in poor contact.', 'Foreign matter stuck in fan.', 'Defective outdoor unit PCB.']",43
+AC INPUT OVER CURRENT,"['Over current due to compressor failure.', 'Over current due to defective outdoor unit PCB.', 'Over current due to defective power transistor.', 'Over current due to short-circuit.']",44
+4 WAY VALVE ABNORMALITY,"['Thermistor defective. way valve defective.', 'Outdoor PCB defective.', 'Foreign substance mixed in refrigerant.', 'Stop valve defective.', 'Disconnect of way valve coil.']",45
+DISCHARGE PIPE OVERHEAT,"['Refrigerant shortage.', 'Four way valve malfunctioning.', 'Discharge pipe thermistor defective.', 'Outdoor PCB defective.', 'Water mixed in the local piping.', 'EXV defective.', 'Stop Valve defective.']",46
+HEAT EXCHANGER OVERHEAT,"['The installation space is not large enough.', 'Faulty outdoor fan motor.', 'Faulty EXV.', 'Faulty outdoor heat exchanger thermistor.', 'Faulty stop valve.', 'Dirty heat exchanger.', 'Unit overcharge.', 'Defective outdoor unit PCB.']",47
+COMPRESSOR SENSOR SYSTEM ABNORMAL,"['Broken and disconnected harness.', 'Outdoor unit PCB defective.', 'Defective compressor.']",48
+COMPRESSOR SENSOR SYSTEM ABNORMAL,"['Broken and disconnected harness.', 'Outdoor unit PCB defective.']",49
+POSITION SENSOR ABNORMAL (COMPRESSOR),"['Compressor relay cable disconnected.', 'Compressor itself defective.', 'Outdoor PCB defective.', 'Stop valve closed.']",50
+POSITION SENSOR ABNORMAL (COMPRESSOR),[],51
+AC CURRENT SENSOR ABNORMALITY,"['Internal wiring broken.', 'Outdoor unit PCB defective.']",52
+Thermistor or related abnormality,"['Disconnection of the connector for the thermistor.', 'Thermistor corresponding to the error code is defective.', 'Defective heat exchanger thermistor in the case of Jerror (outdoor heat exchanger thermistor in cooling operation, or indoor heat exchanger thermistor in heating operation).', 'Defective outdoor unit PCB.']",53
+ELECTRICAL BOX TEMPERATURE RISE (COMPRESSOR OFF),"['Fin temperature rise due to defective outdoor unit fan.', 'Fin temperature rise due to short circuit.', 'Fin thermistor defective.', 'Connector in poor contact.', 'Outdoor unit PCB defective.']",54
+Heat sink overheat,"['Fin temperature rise due to short circuit.', 'Fin temperature rise due to defective outdoor unit fan.', 'Fin thermistor defective.', 'Connector in poor contact.', 'Outdoor unit PCB defective.']",55
+IPM ABNORMALITY,"['Over current due to defective power transistor.', 'Over current due to wrong internal wiring.', 'Over current due to abnormal supply voltage.', 'Over current due to defective PCB.', 'Error detection due to defective PCB.', 'Over- current due to closed stop valve.', 'Over current due to compressor failure.', 'Over current due to poor installation condition.', 'Connection between main board and IPM board is not properly connect.']",56
+INSUFFICIENT GAS,"['Disconnection of the discharge pipe thermistor, indoor or outdoor heat exchanger,room or outdoor temperature thermistor.', 'Closed stop valve.', 'Refrigerant shortage (refrigerant leakage).', 'Poor compression performance of compressor.', 'Defective electronic expansion valve.']",57
+DC VOLTAGE OUT OF RANGE,"['Defective DC voltage detection circuit.', 'Defective over-voltage detection circuit.', 'Defective PAM control part.', 'Disconnection of compressor harness Short circuit inside the fan motor winding.', 'Noise.', 'Momentary drop of voltage.', 'Momentary power failure.', 'Defective outdoor unit PCB.']",58
+COMMUNICATION ABNORMALITY,"['Faulty outdoor unit PCB.', 'Faulty indoor unit PCB.', 'Indoor unit – outdoor unit signal transmission error due to wiring error.', 'Indoor unit – outdoor unit signal transmission error due to disturbed power supply waveform.', 'Indoor unit – Outdoor unit signal transmission error due to breaking of wire in the connection wires between the indoor and outdoor units']",59
+INSTALLATION ABNORMALITY,"['Wrong models interconnected.', 'Wrong indoor unit PCB mounted.', 'Indoor unit PCB defective.', 'Wrong outdoor unit PCB mounted or defective.']",60
